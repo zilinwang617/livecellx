@@ -23,7 +23,7 @@ If you encounter issues related to `lap` and `numpy`, or `numba` and `numpy`, pl
 
 ```bash
 pip install -r requirements.txt
-pip install -r napari_requirements.txt
+pip install -r napari_requirements.txt  # installs napari 0.6.1
 pip install -e .  # -e option allows for an editable installation, useful for development
 ```
 

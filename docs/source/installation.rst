@@ -8,9 +8,9 @@ General package requirements
 
 Install dependencies by running::
 
-    pip install -r requirements.txt
-    pip install -r napari_requirements.txt 
-    pip install .
+   pip install -r requirements.txt
+   pip install -r napari_requirements.txt  # installs napari 0.6.1
+   pip install .
 
 Alternatively, to install an editable version and develop the package, run::
 
