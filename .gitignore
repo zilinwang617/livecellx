@@ -6,6 +6,7 @@ notebooks/*logs*
 notebooks/tmp/**
 notebooks/eval_results/**
 notebooks/sc_classify_MA*/**
+zilin/
 
 *.mp4
 *.npy
