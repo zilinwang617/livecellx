@@ -10,3 +10,19 @@
     max-width: 1000px;
 }
 
+/* Adjust the mobile menu button position when the sidebar is visible */
+.nav-overlay-icon {
+    position: relative;
+    left: 0;
+    transition: left 0.25s ease-in-out;
+}
+
+#__navigation:checked ~ .page .nav-overlay-icon {
+    left: 15em; /* match sidebar width */
+}
+
+/* Ensure the last sidebar item (e.g., logout) has spacing from the bottom */
+.sidebar-drawer li:last-child {
+    margin-bottom: 1rem;
+}
+
